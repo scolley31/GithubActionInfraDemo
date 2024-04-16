@@ -8,3 +8,6 @@
 # Optionally ignore all .tfstate files to keep state out of version control
 .tfstate
 .tfstate.*
+
+.terraform.lock.hcl
+.terraform/
