@@ -1,3 +1,10 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+
+# Ignore directory where Terraform modules and provider plugins are stored
+.terraform/*
+
+# Optionally ignore all .tfstate files to keep state out of version control
+.tfstate
+.tfstate.*
