@@ -2,8 +2,13 @@
 /shelf/
 /workspace.xml
 
+# Ignore the entire .terraform directory
+**/.terraform/
+
 # Ignore directory where Terraform modules and provider plugins are stored
 .terraform/*
+/.terraform/
+.terraform.lock.hcl
 
 # Optionally ignore all .tfstate files to keep state out of version control
 .tfstate
